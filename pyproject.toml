@@ -1,0 +1,15 @@
+[build-system]
+requires = ["maturin>=1.4,<2"]
+build-backend = "maturin"
+
+[project]
+name = "edge_tts_py"
+version = "0.1.0"
+description = "Rust async TTS binding for Python"
+authors = [{ name = "Muhammad Alimuhammadi", email = "mr.alimuhammadi@email.com" }]
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+]
