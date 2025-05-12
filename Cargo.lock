@@ -168,6 +168,7 @@ version = "0.1.0"
 dependencies = [
  "edge-t2s",
  "pyo3",
+ "tokio",
 ]
 
 [[package]]
