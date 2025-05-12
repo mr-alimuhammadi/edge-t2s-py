@@ -14,4 +14,4 @@ pyo3-async-runtimes = { version = "0.24", features = ["tokio-runtime"] }
 tokio = "1.40"
 
 [package.metadata.maturin]
-name = "edge_tts_py"
+name = "edge_t2s_py"
