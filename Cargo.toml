@@ -9,8 +9,9 @@ crate-type = ["cdylib"]
 
 [dependencies]
 edge-t2s = { git = "https://github.com/mr-alimuhammadi/edge-t2s", version = "0.1.0" }
-pyo3 = { version = "0.24.2", features = ["extension-module", "experimental-async"] }
-tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+pyo3 = { version = "0.24", features = ["extension-module"] }
+pyo3-async-runtimes = { version = "0.24", features = ["tokio-runtime"] }
+tokio = "1.40"
 
 [package.metadata.maturin]
 name = "edge_tts_py"
