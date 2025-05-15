@@ -150,7 +150,7 @@ dependencies = [
 [[package]]
 name = "edge-t2s"
 version = "0.1.0"
-source = "git+https://github.com/mr-alimuhammadi/edge-t2s#5cfc27e25fe2a8c867d78118ab7686dc56cb6c61"
+source = "git+https://github.com/draco-tlw/edge-t2s#6caa00de6f7782e77a2932b7031c621deda05e14"
 dependencies = [
  "async-trait",
  "futures-util",

@@ -8,7 +8,7 @@ name = "edge-t2s-py"
 crate-type = ["cdylib"]
 
 [dependencies]
-edge-t2s = { git = "https://github.com/mr-alimuhammadi/edge-t2s", version = "0.1.0" }
+edge-t2s = { git = "https://github.com/draco-tlw/edge-t2s", version = "0.1.0" }
 pyo3 = { version = "0.24", features = ["extension-module"] }
 pyo3-async-runtimes = { version = "0.24", features = ["tokio-runtime"] }
 tokio = "1.40"
